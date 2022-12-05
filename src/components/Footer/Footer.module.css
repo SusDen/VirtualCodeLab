@@ -1,0 +1,70 @@
+.main {
+    background: black;
+    height: 400px;
+    scroll-behavior: smooth;
+}
+.textBlocks ul, .textBlocks a{
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 17.4965px;
+    margin: 45px 50px 0 50px;
+}
+.textBlocks a {
+    transition: .55s;
+}
+.textBlocks a:hover {
+    color: red;
+}
+.leftSide {
+    float: left;
+}
+.rightSide {
+    float: right;
+}
+.projectName {
+    font-weight: 400;
+    font-size: 27.9945px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+}
+.contactButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    scroll-behavior: smooth;
+}
+.mailBlock, .telegramBlock {
+    border-radius: 50%;
+    margin: 0 15px 0 15px;
+    scroll-behavior: smooth;
+}
+.mailBlock img, .telegramBlock img {
+    /*box-shadow: 0 0 20px red;*/
+    border-radius: 50%;
+}
+@media (max-width: 1600px) {
+    .textBlocks ul, .textBlocks a{
+        margin: 45px 25px 0 25px;
+    }
+}
+@media (max-width: 1400px) {
+    .textBlocks ul,.textBlocks a {
+        margin: 45px 15px 0 15px;
+    }
+}
+@media (max-width: 1024px) {
+    .textBlocks ul,.textBlocks a {
+        font-size: 15px;
+    }
+}
