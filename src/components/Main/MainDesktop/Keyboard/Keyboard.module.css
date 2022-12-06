@@ -1,0 +1,27 @@
+.keyboard{
+    width: auto;
+    height: 100px;
+    margin-left: 75px;
+    margin-right: 75px;
+
+}
+.keyboard ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.keyboard li {
+    width: 70px;
+    height: 37px;
+    background: white;
+    border-radius: 13px;
+    transform: skew(20deg);
+}
+.spaceButton {
+    margin-left: 35%;
+    width: 550px;
+    height: 37px;
+    background: white;
+    border-radius: 13px;
+    transform: skew(20deg);
+}

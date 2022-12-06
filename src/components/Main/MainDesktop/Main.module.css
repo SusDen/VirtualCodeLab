@@ -1,0 +1,637 @@
+.main {
+    grid-area: c;
+    height: 100%;
+    color: white;
+    background: black;
+    display: block;
+    overflow: hidden;
+}
+
+.projectName {
+    padding-top: 92px;
+    position: relative;
+}
+
+.projectNameMain {
+    font-weight: 700;
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    color: #69B9FF;
+}
+
+.projectNameSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 42px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 18px;
+}
+
+.newLogo {
+    position: absolute;
+    z-index: 2;
+    width: 350px;
+    height: 350px;
+    margin-left: 75%;
+}
+
+.robot {
+    float: right;
+    padding-top: 155px;
+    margin-right: -16px;
+    width: 684px;
+    height: 456px;
+}
+
+@media (max-width: 1650px) {
+    .robot {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .robot {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .newLogo {
+        margin-left: 65%;
+    }
+}
+
+.contentA {
+    position: relative;
+    background: black;
+}
+
+.blackBlock {
+    background: none;
+    width: auto;
+    height: 655px;
+    left: 203px;
+    right: 203px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 47.8239px;
+}
+
+.blackBlock2 {
+    height: 575.05px;
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 90%;
+    background: black;
+    border-radius: 47.8239px;
+}
+
+.mainImage {
+    width: 100%;
+}
+
+.textBlock {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.aContent {
+    position: absolute;
+    left: 19.94%;
+    margin-top: 13.4%;
+    color: white;
+    z-index: 1;
+}
+
+.bigText {
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 56px;
+}
+
+.whiteLine {
+    margin-top: 25px;
+    width: 411px;
+    height: 0.2em;
+    background: white;
+}
+
+.smallText {
+    padding-top: 42px;
+    width: 580px;
+}
+
+.smallText span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 64px;
+}
+
+.buttons div {
+    height: 48px;
+    width: 181px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 7px;
+    display: grid;
+    place-items: center;
+    transition: .55s;
+}
+
+.startButton {
+    background: #69B9FF;
+    margin-right: 2.081em;
+    cursor: pointer;
+}
+
+.contactButton {
+    background: #0C3483;
+    scroll-behavior: smooth;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+
+a .startButton {
+    color: black;
+}
+
+a .contactButton {
+    color: #AAC7E0;
+}
+
+a:hover .startButton {
+    color: red;
+    background: grey;
+}
+
+a:hover .contactButton {
+    color: red;
+    background: grey;
+}
+
+.contentB {
+    margin-top: 100px;
+    position: relative;
+    height: 2200px;
+    background: linear-gradient(179.48deg, #0C3483 2.36%, #6B8CCE 63.51%, #FF71E8 124.66%);
+    border: 5.83218px solid #AAC7E0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    z-index: 0;
+}
+
+.contentB::before, .contentB::after {
+    content: '';
+    width: 203px;
+    height: 647px;
+    position: absolute;
+    top: -8px;
+    background-color: black;
+    border: 5.83218px solid #AAC7E0;
+    border-top: none;
+}
+
+.contentB::after {
+    border-right: none;
+    right: -6px;
+    border-bottom-left-radius: 100px;
+}
+
+.contentB::before {
+    border-left: none;
+    left: -6px;
+    border-bottom-right-radius: 100px;
+}
+
+.minidiv {
+    top: -6px;
+    left: 12.344em;
+    height: 100px;
+    width: 100px;
+    background: none;
+    position: absolute;
+}
+
+.minidiv::before {
+    content: '';
+    background: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 5.83218px solid #AAC7E0;
+    border-right: none;
+    border-bottom: none;
+    border-top-left-radius: 50%;
+    box-shadow: -10px -30px black;
+}
+
+.minidiv2 {
+    top: -6px;
+    float: right;
+    right: 204px;
+    height: 100px;
+    width: 100px;
+    background: none;
+    position: relative;
+}
+
+.minidiv2::after {
+    content: '';
+    background: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 5.83218px solid #AAC7E0;
+    border-left: none;
+    border-bottom: none;
+    border-top-right-radius: 50%;
+    box-shadow: 10px -30px black;
+    z-index: 1;
+}
+
+.container {
+    padding-top: 40px;
+}
+
+.contentC {
+    position: absolute;
+    margin-top: 650px;
+    width: 100%;
+}
+
+.contentD {
+    margin-top: 1000px;
+}
+
+.textContainer {
+    width: 737.19px;
+    height: 618.21px;
+    background: black;
+    filter: drop-shadow(0px 0px 81.6506px #34579B);
+    border-radius: 37.326px;
+    margin-left: 96px;
+    color: white;
+    z-index: 1;
+    position: absolute;
+}
+.pink {
+    color: #FF849B;
+}
+
+.bigTextContainer {
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.whiteLine2 {
+    margin-top: 35px;
+    width: 641.54px;
+    height: 0.2em;
+    background: white;
+}
+
+.firstTextBlock {
+    margin-top: 30px;
+}
+
+.secondTextBlock {
+    margin-top: 30px;
+}
+
+.headerText {
+    font-weight: 700;
+    font-size: 27.9945px;
+}
+
+.smallTextBlock {
+    font-weight: 400;
+    font-size: 21px;
+}
+.miniC {
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -13px;
+    margin-top: 7px;
+}
+.miniCl {
+    width: 8px;
+    height: 8px;
+    background: black;
+    box-shadow: 0 0 0 2px white;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -13px;
+    margin-top: 7px;
+}
+
+.mouseImage {
+    width: 1024.71px;
+    height: 758.77px;
+    float: right;
+    z-index: -1;
+}
+.mouseImage img {
+    position: absolute;
+    bottom: 0;
+}
+.progress {
+    padding-top: 800px;
+    z-index: 1;
+}
+.progress2 {
+    display: flex;
+    position: relative;
+}
+.progressBlock {
+    margin-top: 101px;
+    width: 460.74px;
+    height: 170.3px;
+    background: black;
+    border-radius: 26.828px;
+    filter: drop-shadow(0 0 81.6506px #36349B);
+}
+
+.firstProgressBlock {
+    margin-left: 96px;
+    display: flex;
+}
+
+.secondProgressBlock {
+    margin-left: 10%;
+    display: flex;
+}
+
+.thirdProgressBlock {
+    margin-right: 96px;
+    margin-left: 10%;
+    display: flex;
+}
+.imgProg {
+    position: relative;
+    width: 151.64px;
+    height: 151.64px;
+}
+.firstProgressBlock .imgProg {
+    margin-top: -10px;
+}
+.secondProgressBlock .imgProg {
+    margin-top: -15px;
+}
+.thirdProgressBlock .imgProg {
+    margin-left: -15px;
+    margin-top: -10px;
+}
+.imgBack {
+    margin-top: 29px;
+    margin-left: 29px;
+    width: 110.81px;
+    height: 110.81px;
+    border-radius: 13.9972px;
+    position: absolute;
+}
+.firstProgressBlock .imgBack {
+    background: #96CF8E;
+}
+.firstProgressBlock .imgBack::after {
+    content: '';
+    width: 50px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-top: -15px;
+}
+.secondProgressBlock .imgBack {
+    background: #FF849B;
+}
+.secondProgressBlock .imgBack::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.thirdProgressBlock .imgBack {
+    background: #69B9FF;
+}
+.progTextContainer {
+    margin-top: 23px;
+    margin-left: 20px;
+}
+.thirdProgressBlock .progTextContainer {
+    width: 50%;
+}
+.progBigText {
+    font-size: 23.3287px;
+    line-height: 42px;
+}
+.progSmallText {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20.9959px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.progressBar {
+    width: 100%;
+    margin-top: 10px;
+    height: 5.83px;
+    background: #4E4E4E;
+    border-radius: 13.9972px;
+}
+.progressBarrProgress {
+    height: 5.83px;
+    border-radius: 13.9972px;
+}
+.firstProgressBlock .progressBarrProgress {
+    width: 100%;
+    background: #96CF8E;
+}
+.secondProgressBlock .progressBarrProgress {
+    width: 90%;
+    background: #FF849B;
+}
+.thirdProgressBlock .progressBarrProgress {
+    width: 20%;
+    background: #69B9FF;
+}
+.progressPrecent {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52.49px;
+    height: 21px;
+    border-radius: 13.9972px;
+    color: black;
+}
+.firstProgressBlock .progressPrecent {
+    background: #96CF8E;
+}
+.secondProgressBlock .progressPrecent {
+    background: #FF849B;
+
+}
+.thirdProgressBlock .progressPrecent {
+    background: #69B9FF;
+}
+@media (max-width: 1544px) {
+    .projectNameSecond {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1650px) {
+    .smallText {
+        padding-top: 22px;
+        width: 500px;
+    }
+    .progBigText {
+        font-size: 18px;
+    }
+    .progSmallText {
+        font-size: 16px;
+    }
+    .buttons {
+        padding-top: 44px;
+    }
+
+    .aContent {
+        padding-top: 11.5%;
+    }
+
+    .whiteLine {
+        width: 350px;
+    }
+}
+
+@media (max-width: 1470px) {
+    .smallText {
+        width: 400px;
+    }
+
+    .spaceButton {
+        margin-left: 25%;
+    }
+
+    .buttons {
+        padding-top: 24px;
+    }
+
+    .aContent {
+        padding-top: 10%;
+    }
+    .progTextContainer {
+        margin-left: 0;
+    }
+    .thirdProgressBlock .progTextContainer {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 1350px) {
+    .keyboard li {
+        width: 50px;
+    }
+
+    .projectNameSecond {
+        font-size: 20px;
+    }
+
+    .bigText {
+        font-size: 50px;
+    }
+
+    .whiteLine {
+        margin-top: 5px;
+        width: 300px;
+    }
+
+    .smallText {
+        padding-top: 10px;
+        width: 350px;
+    }
+
+    .smallText span {
+        font-size: 20px;
+    }
+
+    .buttons {
+        padding-top: 14px;
+    }
+
+    .startButton {
+        margin-right: 1em;
+    }
+
+    .aContent {
+        padding-top: 10%;
+    }
+
+    .buttons div {
+        height: 35px;
+        width: 150px;
+    }
+    .progBigText {
+        font-size: 13px;
+    }
+    .progSmallText {
+        font-size: 11px;
+    }
+    .imgBack {
+        height: 90px;
+        width: 90px;
+    }
+    .imgProg {
+        height: 120px;
+    }
+    .firstProgressBlock .imgProg {
+        margin-top: -5px;
+        margin-left: 1px;
+    }
+    .secondProgressBlock .imgProg {
+        margin-top: 10px;
+    }
+    .progTextContainer {
+        margin-left: -20px;
+    }
+    .thirdProgressBlock .progTextContainer {
+        margin-left: -5px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .smallText span {
+        font-size: 14px;
+    }
+    .progSmallText {
+        margin-top: 2px;
+    }
+    .progBigText {
+        line-height: 20px;
+    }
+}
