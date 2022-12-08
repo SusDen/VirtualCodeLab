@@ -1,4 +1,74 @@
 .main {
-    font-size: 100px;
-    color: red;
+    grid-area: c;
+    height: 100%;
+    color: white;
+    display: block;
+    overflow: hidden;
+    background: black;
+}
+
+.projectName {
+    padding-top: 92px;
+    position: relative;
+}
+
+
+.projectNameMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+
+.blue {
+    color: #69B9FF;
+}
+
+.projectNameSecond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 18px;
+}
+.contentB {
+    z-index: -1;
+    transform-origin: top right;
+    transform: skewY(-10deg);
+    margin-top: -265px;
+    width: 100%;
+    height: 1436px;
+    background: linear-gradient(180deg, #3F60A2 7.38%, #A176C4 137.78%);
+}
+.contentMargin {
+    transform: skewY(10deg);
+    height: 100px;
+    width: 100%;
+    padding-top: 100px;
+
+}.contentMargin2 {
+    height: 700px;
+    width: 100%;
+    padding-top: 100px;
+
+}
+.contentContainer {
+    transform: skewY(10deg);
+    height: 100px;
+    width: 100%;
+}
+ @media (max-width: 490px) {
+     .projectNameMain {
+         font-size: 54px;
+     }
+ }
+@media (max-width: 600px) {
+    .contentB {
+        height: 1836px;
+    }
 }

@@ -16,12 +16,8 @@ const MainDesktop = () => {
     const dispatch = useDispatch()
     const [counter, setCouner] = useState(1)
 
-    const scrollToBottom = () => {
-        scroll.scrollToBottom();
-    };
-
     const ContactButtonHandler = () => {
-        scrollToBottom()
+        scroll.scrollToBottom();
         dispatch(contatcGlowing())
         setTimeout(() => {
             dispatch(contatcGlowOFF())

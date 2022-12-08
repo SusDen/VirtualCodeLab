@@ -1,0 +1,87 @@
+.main {
+
+}
+.textContainer {
+    width: 80%;
+    height: auto;
+    background: black;
+    filter: drop-shadow(0px 0px 81.6506px #34579B);
+    border-radius: 37.326px;
+    margin-left: 10%;
+    color: white;
+    z-index: 1;
+    position: absolute;
+}
+.pink {
+    color: #FF849B;
+}
+.bigText {
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 56px;
+}
+.smallTextBlock {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+.bigTextContainer {
+    margin-left: 50px;
+    padding-top: 30px;
+}
+
+.whiteLine2 {
+    margin-top: 35px;
+    width: 95%;
+    height: 0.2em;
+    background: white;
+}
+
+.firstTextBlock {
+    margin-top: 30px;
+    margin-right: 5%;
+}
+
+.secondTextBlock {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-right: 5%;
+}
+
+.headerText {
+    font-weight: 700;
+    font-size: 27.9945px;
+}
+
+.smallTextBlock {
+    font-weight: 400;
+    font-size: 21px;
+}
+.miniC {
+    width: 10px;
+    height: 10px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -13px;
+    margin-top: 7px;
+}
+.miniCl {
+    width: 8px;
+    height: 8px;
+    background: black;
+    box-shadow: 0 0 0 2px white;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -13px;
+    margin-top: 7px;
+}
+@media (max-width: 855px) {
+    .bigText {
+        font-size: 40px;
+    }
+    .smallTextBlock {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}

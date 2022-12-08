@@ -1,0 +1,146 @@
+.progress2 {
+    display: block;
+    position: relative;
+}
+.progressBlock {
+    margin-top: 15%;
+    width: auto;
+    height: auto;
+    background: black;
+    border-radius: 26.828px;
+    filter: drop-shadow(0 0 81.6506px #36349B);
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+}
+.firstProgressBlock {
+    display: flex;
+}
+
+.secondProgressBlock {
+    display: flex;
+}
+
+.thirdProgressBlock {
+    display: flex;
+}
+.imgProg {
+    position: relative;
+    width: 151.64px;
+    height: 151.64px;
+}
+.firstProgressBlock .imgProg {
+    margin-top: -10px;
+}
+.secondProgressBlock .imgProg {
+    margin-top: -15px;
+}
+.thirdProgressBlock .imgProg {
+    margin-left: -15px;
+    margin-top: -10px;
+}
+.imgBack {
+    margin-top: 29px;
+    margin-left: 29px;
+    width: 110.81px;
+    height: 110.81px;
+    border-radius: 13.9972px;
+    position: absolute;
+}
+.firstProgressBlock .imgBack {
+    background: #96CF8E;
+}
+.firstProgressBlock .imgBack::after {
+    content: '';
+    width: 50px;
+    height: 30px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-top: -15px;
+}
+.secondProgressBlock .imgBack {
+    background: #FF849B;
+}
+.secondProgressBlock .imgBack::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: 15px;
+}
+.thirdProgressBlock .imgBack {
+    background: #69B9FF;
+}
+.progTextContainer {
+    margin-top: 23px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.thirdProgressBlock .progTextContainer {
+    width: 50%;
+}
+.progBigText {
+    font-size: 23.3287px;
+    line-height: 42px;
+}
+.progSmallText {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 20.9959px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.progressBar {
+    width: 100%;
+    margin-top: 10px;
+    height: 5.83px;
+    background: #4E4E4E;
+    border-radius: 13.9972px;
+}
+.progressBarrProgress {
+    height: 5.83px;
+    border-radius: 13.9972px;
+}
+.firstProgressBlock .progressBarrProgress {
+    width: 100%;
+    background: #96CF8E;
+}
+.secondProgressBlock .progressBarrProgress {
+    width: 90%;
+    background: #FF849B;
+}
+.thirdProgressBlock .progressBarrProgress {
+    width: 20%;
+    background: #69B9FF;
+}
+.progressPrecent {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52.49px;
+    height: 21px;
+    border-radius: 13.9972px;
+    color: black;
+    margin-bottom: 10px;
+}
+.firstProgressBlock .progressPrecent {
+    background: #96CF8E;
+}
+.secondProgressBlock .progressPrecent {
+    background: #FF849B;
+
+}
+.thirdProgressBlock .progressPrecent {
+    background: #69B9FF;
+}
+@media (min-width: 600px) {
+    .progress2 {
+        display: flex;
+        position: relative;
+    }
+}
