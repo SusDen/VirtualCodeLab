@@ -366,7 +366,7 @@ a:hover .contactButton {
 .progressBlock {
     margin-top: 101px;
     width: 460.74px;
-    height: 170.3px;
+    height: auto;
     background: black;
     border-radius: 26.828px;
     filter: drop-shadow(0 0 81.6506px #36349B);
@@ -488,6 +488,7 @@ a:hover .contactButton {
     height: 21px;
     border-radius: 13.9972px;
     color: black;
+    margin-bottom: 10px;
 }
 .firstProgressBlock .progressPrecent {
     background: #96CF8E;

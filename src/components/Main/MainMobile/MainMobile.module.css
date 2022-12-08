@@ -42,7 +42,7 @@
     transform: skewY(-10deg);
     margin-top: -265px;
     width: 100%;
-    height: 1436px;
+    height: 2036px;
     background: linear-gradient(180deg, #3F60A2 7.38%, #A176C4 137.78%);
 }
 .contentMargin {
@@ -70,5 +70,10 @@
 @media (max-width: 600px) {
     .contentB {
         height: 1836px;
+    }
+}
+@media (min-width: 900px) {
+    .contentB {
+        height: 2136px;
     }
 }
