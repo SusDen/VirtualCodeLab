@@ -9,8 +9,7 @@ const MainMobile = () => {
         <div className={s.main}>
             <div className={s.projectName}>
                 <div className={s.projectNameMain}>VirtualCode<span className={s.blue}>Lab</span></div>
-                <div className={s.projectNameSecond}>игра-симулятор разработчика <br/> (виртуальная лаборатория
-                    программирования)
+                <div className={s.projectNameSecond}>виртуальная лаборатория и <br/> тренажер по программированию
                 </div>
             </div>
             <Phone/>

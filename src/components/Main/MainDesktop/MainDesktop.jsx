@@ -58,8 +58,7 @@ const MainDesktop = () => {
         <div className={s.main}>
             <div className={s.projectName}>
                 <span className={s.projectNameMain}>VirtualCode<span className={s.blue}>Lab</span></span>
-                <span className={s.projectNameSecond}>игра-симулятор разработчика (виртуальная лаборатория
-                    программирования)</span>
+                <span className={s.projectNameSecond}>виртуальная лаборатория и тренажер по программированию</span>
             </div>
             <img className={s.newLogo} src={newLogo} alt="NEW"/>
             <div className={s.contentB}>
